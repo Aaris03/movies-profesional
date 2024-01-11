@@ -1,0 +1,19 @@
+{
+  "name": "movies",
+  "version": "1.0.0",
+  "description": "Consumo de API de peliculas",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/Aaris03/movies.git"
+  },
+  "author": "Armando Arismendi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aaris03/movies/issues"
+  },
+  "homepage": "https://github.com/Aaris03/movies#readme"
+}

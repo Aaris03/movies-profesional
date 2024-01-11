@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/main.css">
+    <title>Peliculas</title>
+</head>
+<body>
+    <header>
+        <P id="logo">Home</P>
+        <form id="search-form">
+            <label for="searching">¿Que peliculas buscas?</label>
+            <input type="search" id="searching" name="searching">
+        </form> 
+        <section>
+            <h3>Categorias</h3>
+            <div class="categories-box">
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="trending-section">
+            <h2>Tendencias</h2>
+            <div class="trending-box">
+            </div>
+        </section>
+        <section class="all-movies-section">
+            <h2>Peliculas</h2>
+            <div class="all-movies-box"></div>
+        </section>
+        <section class="movies-by-categories-section inactive"></section>
+        <section class="seaching-movie-section inactive">
+        </section>
+        <section class="movie-details-section inactive">
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./src/navigation.js"></script>
+    <script src="./src/keys.js"></script>
+    <script src="./src/main.js"></script>
+</body>
+</html>
